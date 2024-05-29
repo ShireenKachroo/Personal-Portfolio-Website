@@ -1,0 +1,171 @@
+body{
+	background-color: rgba(241, 194, 241, 0.948);
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+h1{
+	font-size: 150px;
+	text-align: center;
+	color: rgb(73, 0, 73);
+}
+
+h2{
+	text-align:center;
+}
+
+h3{
+	text-align:left;
+}
+
+h5{
+	font-size: 25px;
+	text-align: center;
+	color: #5C2018;
+}
+
+p{
+	text-align:justify;
+	font-size: 20px;
+	font-style: normal;
+	color: #2A1B3D;
+}
+
+img{
+	align-self: center;
+	height:300px;
+	width:300px;
+	border-radius: 55%;
+	-webkit-border-radius: 55%;
+	-moz-border-radius: 55%;
+	-ms-border-radius: 55%;
+	-o-border-radius: 55%;
+}
+
+img:hover
+{
+    transform: scale(1.05);
+	  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+ul.a
+{
+	list-style-type:circle;
+	color:#2A1B3D;
+	font-size: 20px;
+}
+
+ul.b
+{
+	list-style-type:square;
+	color:#2A1B3D;
+	font-size: 20px;
+}
+
+ul.c
+{
+	list-style-type:disc;
+	color:#2A1B3D;
+	font-size: 20px;
+}
+
+ul.d
+{
+	list-style-type:circle;
+	color:#2A1B3D;
+	font-size: 20px;
+}
+
+div{
+	text-align:center;
+	font-size: 30px;
+	margin: 0px 0px 0px 0px;
+}
+
+a{
+	color: #4285F4;
+	font-style: italic;
+}
+
+a:hover{
+	color: #77A6F7;
+}
+
+.fa {
+	padding: 10px;
+	font-size: 25px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20%;
+	-webkit-border-radius: 20%;
+	-moz-border-radius: 20%;
+	-ms-border-radius: 20%;
+	-o-border-radius: 20%;
+}
+
+.fa-linkedin
+{
+	background-color: #0F52BA;
+	color: white;
+}
+
+.topnav {
+	width:100%;
+	height: auto;
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	left:0px;
+	background-color: #78244C;
+  }
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+  }
+
+.topnav a:hover {
+	background-color:#CB2D6F;
+	color: black;
+  }
+
+.topnav a.active {
+	background-color:#5C2018;
+	color: white;
+  }
+
+#myInfo
+  {
+	font-size: 50px;
+	text-align: center;
+	font-style:oblique ;
+	color:#78244C;
+  }
+
+#edu{
+	text-align:left;
+	font-size: 35px;
+	color:black;
+  }
+
+#myInformation::first-letter
+  {
+	text-align: left;
+	font-size:35px;
+  }
+
+ul{
+	text-align:left;
+}
+
+
+
+
